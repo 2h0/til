@@ -72,3 +72,15 @@ header li > a {
   text-decoration: none;
   color: inherit;
 }
+
+# 9回目 背景画像の設定をしよう
+header 要素に対して background-image プロパティを操作
+background-image: url(../img/header.png);
+
+ackground-size というプロパティを使ってあげて
+background-size: cover;
+としてあげると、縦横比を保持したまま、なるべく大きく画像を表示
+
+画像の中央を起点にサイズが変わってほしいので background-position というプロパティも操作
+background-position: 50% 50%;
+水平方向に 50% 、垂直方向に 50% の位置
