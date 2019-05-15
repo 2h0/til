@@ -58,3 +58,17 @@ a:hover とすると、 a 要素にマウスカーソルが乗ったとき、と
 text-align: right;
 
 header に対して上下左右に padding を付けたい場合には padding: 10px; と指定
+
+# 8回目 セレクタの適用範囲を限定しよう
+半角空白で区切ると、 header 内のすべての要素、という意味
+header ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+不等号記号で区切ると、 この要素の直下にある a 要素、という意味
+header li > a {
+  text-decoration: none;
+  color: inherit;
+}
