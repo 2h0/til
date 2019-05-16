@@ -84,3 +84,15 @@ background-size: cover;
 画像の中央を起点にサイズが変わってほしいので background-position というプロパティも操作
 background-position: 50% 50%;
 水平方向に 50% 、垂直方向に 50% の位置
+
+# 10回目 marginの相殺について理解しよう
+section を中央揃えにしたい
+text-align: center;
+
+フォントの太さを変えるには
+font-weight: normal;
+
+margin の余白が被っている
+margin の相殺」と呼ばれる現象で、上下方向に限って発生する
+
+margin が隣接した場合、幅の狭い方が幅の広い方に打ち消されて、幅の広い方が生き残るという仕様
