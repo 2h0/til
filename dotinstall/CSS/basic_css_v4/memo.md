@@ -96,3 +96,14 @@ margin の余白が被っている
 margin の相殺」と呼ばれる現象で、上下方向に限って発生する
 
 margin が隣接した場合、幅の狭い方が幅の広い方に打ち消されて、幅の広い方が生き残るという仕様
+
+# 11回目 border-radiusを使ってみよう
+要素に識別子を与える
+class 属性がよく使われるので class="" のように書く
+<img src="img/taro.png" width="140" height="140" alt="太郎のアイコン" class="icon">
+
+class はドット（.）で表すので .icon
+.icon {
+  /* border-radius: 70px; */
+  border-radius: 50%;
+}
