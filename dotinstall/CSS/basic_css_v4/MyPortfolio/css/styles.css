@@ -102,3 +102,22 @@ section p {
 .works p {
   text-align: left;
 }
+
+footer {
+  width: 400px;
+  margin: 0 auto 60px;
+}
+
+footer ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li > a:hover {
+  opacity: 0.6;
+}
