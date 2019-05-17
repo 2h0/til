@@ -155,4 +155,15 @@ float というのはその名前の通り、
 float: left;
 としてあげると左側に浮いた感じになる
 
-# 17回目
+# 17回目 プロフィールサイトを完成させよう
+識別子を付けてあげて、スタイルを設定
+<li class="current">
+
+border(下線)ですが、下方向に付けるには border-bottom としてあげる
+
+文章を、ある程度幅を持って中央揃えにしたい
+section に about クラスを付けてあげて、いろいろ設定
+.about ですが width: 400px; にしつつ、
+margin を、上が 0 、左右が auto 、下が 60px
+.about の中の p に関しては
+text-align: left;
