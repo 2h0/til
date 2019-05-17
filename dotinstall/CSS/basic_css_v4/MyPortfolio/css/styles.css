@@ -68,4 +68,11 @@ section p {
 .icon {
   /* border-radius: 70px; */
   border-radius: 50%;
+  /* border-color: pink;
+  border-width: 5px;
+  border-style: solid; */
+  border: 5px solid white;
+  /* box-shadow: x y blur color */
+  /* box-shadow: 10px 10px 5px black; */
+  box-shadow: 0 0 5px gray;
 }

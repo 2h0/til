@@ -3,13 +3,13 @@
 - Git の使い方が不十分なので以下参考
 https://qiita.com/To_BB/items/5f846d2a892ea497511f
 
-# 1回目 はじめてのCSSを書いてみよう 
+# 1回目 はじめてのCSSを書いてみよう
 CSS では、「どこに」「どんなスタイルを」当てるかを設定していく
 
 「どこに」の部分を「セレクタ」、「どのようなスタイルを」の部分を「プロパティ」と呼ぶ
 # 2回目 デベロッパーツールを使ってみよう
 Chrome ディベロッパーツール
-Command + Option + i 
+Command + Option + i
 
 Elements パネルの左側には、ブラウザが解釈した HTML 、
 右側には CSS で設定されたスタイルを確認することができる
@@ -104,6 +104,17 @@ class 属性がよく使われるので class="" のように書く
 
 class はドット（.）で表すので .icon
 .icon {
-  /* border-radius: 70px; */
   border-radius: 50%;
 }
+
+# 12回目 box-shadowで影をつけよう
+border(円？)に色、幅、スタイルを決める
+border-color: pink;
+もしくは
+border: 5px solid white;
+solid は実線
+
+アイコンに影をつけたい場合
+box-shadow プロパティを使う
+以下、与える値(blur はぼかし)
+box-shadow: x y blur color
