@@ -76,3 +76,20 @@ section p {
   /* box-shadow: 10px 10px 5px black; */
   box-shadow: 0 0 5px gray;
 }
+
+.works {
+  width: 400px;
+}
+
+/* .works h1 {
+  text-align: left;
+}
+
+.works p {
+  text-align: left;
+} */
+
+.works h1,
+.works p {
+  text-align: left;
+}
